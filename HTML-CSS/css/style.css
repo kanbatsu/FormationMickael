@@ -38,3 +38,53 @@ a
     color: rgba(125, 0, 255, 1);
     text-decoration: none;
 }
+
+div
+{
+    width: 75px;
+    height: 75px;
+    /*border-width: 4px;
+    border-style: dotted;
+    border-color: black;*/
+}
+
+section:first-child div:first-child
+{
+    background-color: #f96739;
+    border-width: 4px 2px 2px 4px;
+}
+
+section:last-child div:first-child
+{
+    background-color: #04b6ec;
+    border-width: 2px 2px 4px 4px;
+}
+
+section:first-child div:last-child
+{
+    background-color: #91c43f;
+    border-width: 4px 4px 2px 2px;
+}
+
+section:last-child div:last-child
+{
+    background-color: #ffc343;
+    border-width: 2px 4px 4px 2px;
+}
+
+
+article
+{
+    display: inline-block;
+
+}
+
+article:hover
+{
+    box-shadow: -10px 10px 5px black;
+}
+
+section
+{
+    display: flex;
+}
