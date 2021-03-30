@@ -1,6 +1,39 @@
+body
+{
+    width: 50%;
+}
+
+#main
+{
+    border: 1px lightgray solid;
+}
+
 img
 {
     width : 150px;
     height : auto;
     float: left;
+}
+
+.Enitalique
+{
+    font-style: italic
+}
+
+#tel
+{
+    display: block;
+    max-width: 33%;
+}
+
+
+.inline
+{
+    display: inline-block;
+}
+
+footer
+{
+    border-top: 1px lightgray dashed;
+    text-align: center;
 }

@@ -31,16 +31,6 @@ p:hover
     color: #fff;
 }
 
-li
-{
-    border: 1px solid black;
-}
-
-ul li
-{
-    list-style-position: inside;
-}
-
 
 a
 {
@@ -94,7 +84,22 @@ article:hover
     box-shadow: -10px 10px 5px black;
 }
 
-section
+/*section
 {
     display: flex;
+}*/
+
+.avendre
+{
+    color: #9b2c2c;
+}
+
+.vendu
+{
+    text-decoration: line-through;
+}
+
+li
+{
+    color: #2b6cb0;
 }
