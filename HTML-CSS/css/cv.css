@@ -6,13 +6,19 @@ body
 #main
 {
     border: 1px lightgray solid;
+    background-color: white;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+section
+{
+    position: relative;
 }
 
 img
 {
     width : 150px;
     height : auto;
-    float: left;
 }
 
 .Enitalique
@@ -23,13 +29,17 @@ img
 #tel
 {
     display: block;
-    max-width: 33%;
 }
 
 
 .inline
 {
     display: inline-block;
+}
+
+#exp
+{
+    position: absolute;
 }
 
 footer
